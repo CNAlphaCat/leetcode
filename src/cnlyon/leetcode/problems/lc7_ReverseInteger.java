@@ -1,7 +1,7 @@
-package question;
+package cnlyon.leetcode.problems;
 
 public class lc7_ReverseInteger {
-  // https://leetcode.cn/problems/reverse-integer/description/
+
   public int reverse(int x) {
     int num = x;
     int reversedNum = 0;

@@ -1,4 +1,4 @@
-package datastructure;
+package cnlyon.leetcode.datastructure;
 
 public class ListNode {
   public int val;

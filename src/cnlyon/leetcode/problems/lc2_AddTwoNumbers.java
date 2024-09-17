@@ -1,9 +1,9 @@
-package question;
+package cnlyon.leetcode.problems;
 
-import datastructure.ListNode;
+import cnlyon.leetcode.datastructure.ListNode;
 
 public class lc2_AddTwoNumbers {
-  // https://leetcode.cn/problems/add-two-numbers/description/
+
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode resultHead = null;
     ListNode resultTail = null;

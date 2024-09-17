@@ -1,9 +1,9 @@
-package question;
+package cnlyon.leetcode.problems;
 
 import java.util.HashSet;
 
 public class lc3_LongestSubstringWithoutRepeatingCharacters {
-  // https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+
   public int lengthOfLongestSubstring(String s) {
     HashSet<Character> charSet = new HashSet<>();
     int max = 0;

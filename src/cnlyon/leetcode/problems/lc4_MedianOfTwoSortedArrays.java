@@ -1,7 +1,7 @@
-package question;
+package cnlyon.leetcode.problems;
 
 public class lc4_MedianOfTwoSortedArrays {
-  // https://leetcode.cn/problems/median-of-two-sorted-arrays/description/
+
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     int n = nums1.length;
     int m = nums2.length;

@@ -1,9 +1,9 @@
-package question;
+package cnlyon.leetcode.problems;
 
 import java.util.ArrayList;
 
 public class lc6_ZigzagConversion {
-  // https://leetcode.cn/problems/zigzag-conversion/
+
   public String convert(String s, int numRows) {
     if (numRows == 1) {
       return s;
