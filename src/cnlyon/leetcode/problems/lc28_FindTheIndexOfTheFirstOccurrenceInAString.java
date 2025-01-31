@@ -4,6 +4,10 @@ import java.util.HashMap;
 
 public class lc28_FindTheIndexOfTheFirstOccurrenceInAString {
   public int strStr(String haystack, String needle) {
+    return sunday(haystack, needle);
+  }
+
+  private int sunday(String haystack, String needle) {
     if (needle.length() > haystack.length()) {
       return -1;
     }
