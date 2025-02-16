@@ -1,5 +1,8 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
+@Microsoft
 public class LC9_PalindromeNumber {
 
   public boolean isPalindrome(int x) {

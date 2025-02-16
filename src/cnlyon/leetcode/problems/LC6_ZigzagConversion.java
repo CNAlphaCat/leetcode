@@ -1,7 +1,10 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.ArrayList;
 
+@Microsoft
 public class LC6_ZigzagConversion {
 
   public String convert(String s, int numRows) {

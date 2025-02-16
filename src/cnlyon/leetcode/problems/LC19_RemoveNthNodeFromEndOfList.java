@@ -1,7 +1,9 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
 import cnlyon.leetcode.datastructure.ListNode;
 
+@Microsoft
 public class LC19_RemoveNthNodeFromEndOfList {
   public ListNode removeNthFromEnd(ListNode head, int n) {
     ListNode l = head;

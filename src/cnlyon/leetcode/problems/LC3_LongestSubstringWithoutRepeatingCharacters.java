@@ -1,7 +1,10 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.HashSet;
 
+@Microsoft
 public class LC3_LongestSubstringWithoutRepeatingCharacters {
 
   public int lengthOfLongestSubstring(String s) {

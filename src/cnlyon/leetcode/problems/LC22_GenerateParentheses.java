@@ -1,8 +1,11 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Microsoft
 public class LC22_GenerateParentheses {
   public List<String> generateParenthesis(int n) {
     List<String> parenthesisList = new ArrayList<>();

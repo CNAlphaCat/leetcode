@@ -1,9 +1,12 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Microsoft
 public class LC18_FourSum {
   public List<List<Integer>> fourSum(int[] nums, int target) {
     List<List<Integer>> sumListCollections = new ArrayList<>();
