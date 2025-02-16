@@ -1,0 +1,22 @@
+package cnlyon.leetcode.problems;
+
+import cnlyon.leetcode.annotations.Microsoft;
+
+import java.util.HashMap;
+
+@Microsoft
+public class LC1_TwoSum {
+
+  public int[] twoSum(int[] nums, int target) {
+    HashMap<Integer, Integer> numToIndexMap = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+      int differ = target - nums[i];
+      if (numToIndexMap.containsKey(differ)) {
+        return new int[] {numToIndexMap.get(differ), i};
+      } else {
+        numToIndexMap.put(nums[i], i);
+      }
+    }
+    return new int[0];
+  }
+}
