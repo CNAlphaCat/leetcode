@@ -1,8 +1,11 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+@Microsoft
 public class LC12_IntegerToRoman {
 
   public String intToRoman(int num) {
