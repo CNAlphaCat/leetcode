@@ -1,10 +1,13 @@
 package cnlyon.leetcode.problems;
 
+import cnlyon.leetcode.annotations.Microsoft;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Microsoft
 public class LC17_LetterCombinationsOfAPhoneNumber {
   private static final Map<Character, List<String>> PHONE_NUM_TO_CHAR_MAP = getPhoneNumToCharMap();
 
