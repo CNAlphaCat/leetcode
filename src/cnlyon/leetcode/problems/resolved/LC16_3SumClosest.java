@@ -1,4 +1,4 @@
-package cnlyon.leetcode.problems;
+package cnlyon.leetcode.problems.resolved;
 
 import java.util.Arrays;
 

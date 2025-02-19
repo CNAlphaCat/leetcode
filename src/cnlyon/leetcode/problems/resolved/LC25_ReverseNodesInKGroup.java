@@ -1,4 +1,4 @@
-package cnlyon.leetcode.problems;
+package cnlyon.leetcode.problems.resolved;
 
 import cnlyon.leetcode.annotations.Microsoft;
 import cnlyon.leetcode.datastructure.ListNode;
